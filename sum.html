@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='ru-ru'>
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <meta name='author' content='Василий Пупкин'>
+  <meta name='description' content='Введение в web-технологии'>
+  <meta name='keywords' content='HTML, CSS, JavaScript'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <!-- <link rel='icon' type='image/x-icon' href='favicon.ico'> -->
+  <!-- <link rel='stylesheet' href='style.css'> -->
+  <script src='lib/math.js'></script>
+</head>
+<body>
+  <header>
+    <h1>Вычисление суммы</h1>
+  </header>
+  <main>
+    <article>
+      <section>
+        <!-- Форму не используем, т.к. данные не отправляем на сервер -->
+        <!-- <form> -->
+          <label for='input1'>Введите первое слагаемое:</label><br>
+          <input id='input1' type="number" value='2'><br><br>
+
+          <label for='input2'>Введите второе слагаемое:</label><br>
+          <input id='input2' type="number" value='3'><br><br>
+
+          <label for='output'>Результат:</label><br>
+          <input id='output' type="text" readonly><br><br>
+
+          <button onclick="formSum('input1', 'input2', 'output')">sum</button>
+        <!-- </form> -->
+      </section>
+      <aside>
+        <h3>Об авторе</h3>
+        <p>Кратко об авторе</p>
+      </aside>
+    </article>
+  </main>
+  <footer>
+    <p>Site footer &copy;&nbsp;2023</p>
+  </footer>
+</body>
+</html>
